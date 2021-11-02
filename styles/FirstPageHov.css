@@ -1,0 +1,63 @@
+@media(max-width: 1920px){
+	.NavigationList li a:hover{
+		cursor: var(--cursor-point);
+		color: #a69681;
+	}
+	.icons{
+		cursor: var(--cursor-point);
+	}
+	.linksPlates:hover{
+		cursor: var(--cursor-point);
+	}
+	.linksPlates:hover .PlatesPencil{
+		background-image: url(../imgs/pencil-hover.png);
+	}
+	.linksPlates:hover .PlatesDevelopment{
+		background-image: url(../imgs/development-hover.png);
+	}
+	.linksPlates:hover .PlatesCustomization{
+		background-image: url(../imgs/customization-hover.png);
+	}
+	.linksPlates:hover .PlatesMarketing{
+		background-image: url(../imgs/marketing-hover.png);
+	}
+	.linksPlates:hover .PlatesLine{
+		background-color: #a69681;
+	}
+	.Description_button:hover{
+		cursor: var(--cursor-point);
+	}
+	.Description_button:hover{
+		height: 4vmin;
+		width: 20vmin;
+		padding: 1vmin;
+	}
+	.slide-left:checked ~ .slide-position-left{
+		border: 2px solid #b5a697;
+		background-color: transparent;
+	}
+	.slide-right:checked ~ .slide-position-right{
+		border: 2px solid #b5a697;
+		background-color: transparent;
+	}
+	.slide-right:checked ~ .PortfolioView{
+		background-image: url('../imgs/mountains-change.jpg');
+	}
+	.slide-left-icon:hover{
+		background-image: url(../imgs/slide-left-hover.png);
+	}
+	.slide-right-icon:hover{
+		background-image: url(../imgs/slide-right-hover.png);
+	}
+	.searchChk:checked ~ .search-field{
+		display: block;
+	}
+	.burger-open:checked ~ .burgerMenu{
+		left: 10vmax;
+	}
+	@media(max-width: 400px){
+		.burger-open:checked ~ .burgerMenu{
+			left: 0vmax;
+		}
+	}
+}

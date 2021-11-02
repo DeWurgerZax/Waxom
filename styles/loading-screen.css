@@ -1,0 +1,49 @@
+svg{
+	height:100%;
+	width:100%;
+	background-color: #4e3427;
+	position: absolute;
+	z-index: 50;
+	top: 0;
+	opacity: 1;
+	animation: screen-move 1s linear 1s forwards;
+}
+#c1{
+	animation: color1 2s linear infinite alternate;
+}
+#c2{
+	animation: color2 2s linear infinite alternate;
+}
+@keyframes color1{
+	from{
+		stop-color: white;
+	}
+	to{
+		stop-color: #a79680;
+	}
+}
+@keyframes color2{
+	from{
+		stop-color: #a79680;
+	}
+	to{
+		stop-color: white;
+	}
+}
+@keyframes screen-move{
+	0%{
+		
+	}
+	50%{
+		opacity:0;
+		top:0;
+	}
+	51%{
+		opacity: 0;
+		top:-100%;
+	}
+	100%{
+		opacity: 0;
+		top:-100%;
+	}
+}

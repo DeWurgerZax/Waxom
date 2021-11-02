@@ -1,0 +1,596 @@
+@media(min-width:1294px){
+
+	.ThirdPage{
+		height: 100%;
+		width: 100%;
+		font-family: 'Roboto', sans-serif;
+	}
+	.WaxomVideo{
+		height: 40%;
+		width: 100%;
+		background-image: url(../imgs/presentationVid.jpg);
+	}
+	.WaxomVideoPres{
+		height: 100%;
+		width: 100%;
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		gap: 5%;
+		text-align: center;
+		backdrop-filter: var(--bFilter);
+	}
+	.ChPlay{
+		display: none;
+	}
+	.VideoIcon{
+		cursor: var(--cursor-point);
+		height: 80px;
+		width: 80px;
+		background-image: url(../imgs/play.png);
+		background-size: cover;
+		filter: drop-shadow(2px 3px 5px grey);
+	}
+	.VideoDes{
+		color: white;
+		font-size: 18px;
+	}
+	.VideoDes b{
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.VideoTime{
+		color: #ddae73;
+	}
+	.WaxomVideoVid{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		margin-top: 0%;
+		display: none;
+	}
+	.WaxomInfo{
+		height: 58%;
+		width: 100%;
+	}
+	.WaxomDevices{
+		margin-top: 2%;
+		height: 70%;
+		width: 100%;	
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WaxomPhone{
+		height: 100%;
+		width: 30%;
+		background-image: url(../imgs/waxomPhone.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.WaxomPhoneInformation{
+		height: 40vmin;
+		width: 45vmin;
+		font-size: 1.8vmin;
+	}
+	.WaxomPhoneInformation b{
+		font-size: 2.4vmin;
+	}
+	.WaxomPhoneInformation ul{
+		list-style-image: url(../imgs/arrowUl.png);
+		margin-left: 2vmin;
+	}
+	.WaxomPhoneInformation li{
+		padding: 0.5vmin 2vmin;
+	}
+	.WaxomStats{
+		height: 27%;
+		width: 100%;
+		background-image: linear-gradient(90deg, #211c19, #4e3427);
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		gap: 1%;
+	}
+	.StatsIcons{
+		height: 13vmin;
+		width: 15vmin;
+		font-size: 5vmin;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		gap: 10%;
+	}
+	.StatsCount{
+		font-size: 28px;
+	}
+	.StatsText{
+		font-size: 12px;
+		color: #b19e86;
+	}
+	.StatsLine{
+		background-color: white;
+		height: 2px;
+		width: 32px;
+	}
+	.StatsIcons_ico{
+		text-align: center;
+		height: 30%;
+		width: 30%;
+		min-width: 30px;
+		min-height: 30px;
+		background-size: 100% 100%;
+	}
+	.iconMembers{
+		background-image: url(../imgs/members.png);
+	}
+	.iconCoffee{
+		background-image: url(../imgs/coffee.png);
+	}
+	.iconPosts{
+		background-image: url(../imgs/posts.png);
+	}
+	.iconLikes{
+		background-image: url(../imgs/likes.png);
+	}
+	.iconLaunched{
+		background-image: url(../imgs/launched.png);
+	}
+	
+}
+
+@media(max-width:1294px){
+
+	.ThirdPage{
+		height: 100%;
+		width: 100%;
+		font-family: 'Roboto', sans-serif;
+	}
+	.WaxomVideo{
+		height: 40%;
+		width: 100%;
+		background-image: url(../imgs/presentationVid.jpg);
+	}
+	.WaxomVideoPres{
+		height: 100%;
+		width: 100%;
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		gap: 5%;
+		text-align: center;
+		backdrop-filter: var(--bFilter);
+	}
+	.ChPlay{
+		display: none;
+	}
+	.VideoIcon{
+		cursor: var(--cursor-point);
+		height: 80px;
+		width: 80px;
+		background-image: url(../imgs/play.png);
+		background-size: cover;
+		filter: drop-shadow(2px 3px 5px grey);
+	}
+	.VideoDes{
+		color: white;
+		font-size: 18px;
+	}
+	.VideoDes b{
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.VideoTime{
+		color: #ddae73;
+	}
+	.WaxomVideoVid{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		margin-top: 0%;
+		display: none;
+	}
+	.WaxomInfo{
+		height: 58%;
+		width: 100%;
+	}
+	.WaxomDevices{
+		margin-top: 2%;
+		height: 70%;
+		width: 100%;	
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WaxomPhone{
+		height: 100%;
+		width: 30%;
+		background-image: url(../imgs/waxomPhone.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.WaxomPhoneInformation{
+		height: 100%;
+		width: 45%;
+		font-size: 1.8vmin;
+	}
+	.WaxomPhoneInformation b{
+		font-size: 2.4vmin;
+	}
+	.WaxomPhoneInformation ul{
+		list-style-image: url(../imgs/arrowUl.png);
+		margin-left: 2vmin;
+	}
+	.WaxomPhoneInformation li{
+		padding: 0.5vmin 2vmin;
+	}
+	.WaxomStats{
+		height: 27%;
+		width: 100%;
+		background-image: linear-gradient(90deg, #211c19, #4e3427);
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		gap: 1%;
+	}
+	.StatsIcons{
+		height: 13vmin;
+		width: 15vmin;
+		font-size: 5vmin;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		gap: 10%;
+	}
+	.StatsCount{
+		font-size: 28px;
+	}
+	.StatsText{
+		font-size: 12px;
+		color: #b19e86;
+	}
+	.StatsLine{
+		background-color: white;
+		height: 2px;
+		width: 32px;
+	}
+	.StatsIcons_ico{
+		text-align: center;
+		height: 30%;
+		width: 30%;
+		min-width: 30px;
+		min-height: 30px;
+		background-size: 100% 100%;
+	}
+	.iconMembers{
+		background-image: url(../imgs/members.png);
+	}
+	.iconCoffee{
+		background-image: url(../imgs/coffee.png);
+	}
+	.iconPosts{
+		background-image: url(../imgs/posts.png);
+	}
+	.iconLikes{
+		background-image: url(../imgs/likes.png);
+	}
+	.iconLaunched{
+		background-image: url(../imgs/launched.png);
+	}
+	@media (min-width:900px) and (max-width:1294px){
+		.WaxomPhone {
+			height: 100%;
+			width: 40%;
+			background-image: url(../imgs/waxomPhone.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			/* transform: translatex(-10%); */
+		}
+	}
+	@media (max-width:1080px){
+		.StatsIcons{
+			height: 5vmin;
+			width: 25vmin;
+		}
+		.StatsText {
+			font-size: 2vmin;
+		}
+	}
+	@media (min-width:525px) and (max-width:900px){
+		.WaxomDevices {
+			margin-top: 2%;
+			height: 70%;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-content: center;
+			justify-content: center;
+			align-items: flex-end;
+		}
+		.WaxomPhone {
+			height: 85%;
+			width: 45%;
+			background-image: url(../imgs/waxomPhone.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			/* transform: translatex(-10%); */
+		}
+		.StatsIcons {
+			height: 13vmax;
+			width: 15vmax;
+			font-size: 5vmax;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-content: center;
+			justify-content: center;
+			align-items: center;
+			gap: 10%;
+		}
+		@media (min-width:540px){
+			.StatsIcons {
+				height: 13vmax;
+				width: 15vmax;
+				font-size: 5vmax;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: flex-start;
+				align-items: center;
+				gap: 10%;
+			}
+			.StatsIcons_ico {
+				text-align: center;
+				height: 30%;
+				width: 30%;
+				min-width: 25px;
+				min-height: 25px;
+				background-size: 100% 100%;
+			}
+			.StatsCount {
+				font-size: 20px;
+			}
+			.StatsText {
+				font-size: 10px;
+				color: #b19e86;
+			}
+		
+		}
+		@media (max-width:860px) and (orientation:landscape){
+			.ThirdPage{
+				height: 130%;
+			}
+			.VideoIcon{
+				height: 50px;
+				width: 50px;
+			}
+			.WaxomPhoneInformation {
+				height: 100%;
+				width: 60%;
+				font-size: 13px;
+			}
+			.WaxomPhoneInformation b {
+				font-size: 14px;
+			}
+			.WaxomPhoneInformation ul{
+				list-style-image: none;
+			}
+			.StatsIcons{
+				height: 13vmin;
+				width: 30vmin;
+			}
+			.StatsIcons_ico{
+				display: none;
+			}
+			@media (max-width:680px){
+				.VideoDes{
+					font-size: 12px;
+				}
+				.WaxomPhoneInformation {
+					height: 100%;
+					width: 60%;
+					font-size: 10px;
+				}
+				@media (max-width:660px){
+					.VideoIcon {
+						height: 30px;
+						width: 30px;
+					}
+					.VideoDes b{
+						font-size: 18px;
+					}
+					.WaxomPhoneInformation ul{
+						list-style-image: none;	
+					}
+					.StatsText{
+						font-size: 9px;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width:330px) and (max-width:525px){
+			.VideoIcon {
+				cursor: var(--cursor-point);
+				height: 50px;
+				width: 50px;
+				background-image: url(../imgs/play.png);
+				background-size: cover;
+				filter: drop-shadow(2px 3px 5px grey);
+			}
+			.VideoDes {
+				color: white;
+				font-size: 14px;
+			}
+			.VideoDes b {
+				font-size: 20px;
+				font-family: 'Raleway', sans-serif;
+			}
+			.WaxomDevices {
+				margin-top: 2%;
+				height: 70%;
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: center;
+				align-items: flex-end;
+			}
+			.WaxomPhone {
+				height: 70%;
+				width: 53%;
+				background-image: url(../imgs/waxomPhone.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				/* transform: translatex(-10%); */
+			}
+			.WaxomPhoneInformation {
+				height: 100%;
+				width: 70%;
+				font-size: 8.5px;
+			}
+			.WaxomPhoneInformation b {
+				font-size: 1.4vmax;
+			}
+			.StatsIcons {
+				height: 13vmax;
+				width: 15vmax;
+				font-size: 5vmax;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: flex-start;
+				align-items: center;
+				gap: 10%;
+			}
+			.StatsIcons_ico {
+				text-align: center;
+				height: 30%;
+				width: 30%;
+				/* min-width: 30px; */
+				/* min-height: 30px; */
+				background-size: 100% 100%;
+			}
+			.StatsCount {
+				font-size: 20px;
+			}
+			.StatsText {
+				font-size: 7px;
+				color: #b19e86;
+			}
+			.StatsLine {
+				display: none;
+			}
+	}
+	@media(max-width:330px){
+			.VideoIcon {
+				cursor: var(--cursor-point);
+				height: 50px;
+				width: 50px;
+				background-image: url(../imgs/play.png);
+				background-size: cover;
+				filter: drop-shadow(2px 3px 5px grey);
+			}
+			.VideoDes {
+				color: white;
+				font-size: 14px;
+			}
+			.VideoDes b {
+				font-size: 20px;
+				font-family: 'Raleway', sans-serif;
+			}
+			.WaxomDevices {
+				margin-top: 2%;
+				height: 70%;
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: center;
+				align-items: flex-end;
+			}
+			.WaxomPhone {
+				height: 70%;
+				width: 53%;
+				background-image: url(../imgs/waxomPhone.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				/* transform: translatex(-10%); */
+			}
+			.WaxomPhoneInformation {
+				height: 100%;
+				width: 70%;
+				font-size: 8.5px;
+			}
+			.WaxomPhoneInformation b {
+				font-size: 1.4vmax;
+			}
+			.StatsIcons {
+				height: 13vmax;
+				width: 15vmax;
+				font-size: 5vmax;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: flex-start;
+				align-items: center;
+				gap: 10%;
+			}
+			.StatsIcons_ico {
+				text-align: center;
+				height: 30%;
+				width: 30%;
+				/* min-width: 30px; */
+				/* min-height: 30px; */
+				background-size: 100% 100%;
+			}
+			.StatsCount {
+				font-size: 20px;
+			}
+			.StatsText {
+				font-size: 6.5px;
+				color: #b19e86;
+			}
+			.StatsLine {
+				display: none;
+			}
+	}
+}

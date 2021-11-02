@@ -1,0 +1,138 @@
+.PostPhoto:hover{
+	cursor: var(--cursor-point);
+}
+.PostPhoto:hover  .Pempty{
+	backdrop-filter: var(--bFilter);
+}
+.PostPhoto:hover .PpostDes{
+	background-color: #372f2d;
+}
+.PostPhoto:hover .PpostDes .PpostHead{
+	color: #a79681;
+}
+.PostPhoto:hover .PpostDes .PpostMid{
+	color: white;
+}
+.PostPhoto:hover .Dates .day{
+	background-color: #c7b199;
+}
+.PostPhoto:hover .Dates .month{
+	background-color: #a58e72;
+}
+
+.move-left:checked ~ .Parrow1{
+	background-image: url(../imgs/parrow1-hover.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.move-right:checked ~ .Parrow2{
+	background-image: url(../imgs/parrow2-hover.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.move-right:checked ~ .PostPhoto2{
+	transform: translatex(103%);
+}
+.move-right:checked ~ .PostPhoto3{
+	transform: translatex(-103%);
+}
+.Parrow1:hover{
+	cursor: var(--cursor-point);
+	filter: drop-shadow(0px 0px 1px black);
+}
+.Parrow2:hover{
+	cursor: var(--cursor-point);
+	filter: drop-shadow(0px 0px 1px black);
+}
+@keyframes post-photo-change{
+	0%{
+		background-image: url(../imgs/post1.png);
+	}
+	33%{
+		background-image: url(../imgs/post1.png);
+	}
+	34%{
+		background-image: url(../imgs/post1-change1.jpg);
+	}
+	66%{
+		background-image: url(../imgs/post1-change1.jpg);
+	}
+	67%{
+		background-image: url(../imgs/post1-change2.jpg);
+	}
+	100%{
+		background-image: url(../imgs/post1-change2.jpg);
+	}
+}
+@keyframes post-photo-change-pc1{
+	0%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+	33%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+	34%{
+		border: 1px solid grey;
+	}
+	66%{
+		border: 1px solid grey;
+	}
+	67%{
+		border: 1px solid grey;
+	}
+	100%{
+		border: 1px solid grey;
+	}
+}
+@keyframes post-photo-change-pc2{
+	0%{
+		border: 1px solid grey;
+	}
+	33%{
+		border: 1px solid grey;
+	}
+	33.99%{
+		background-color: grey;
+	}
+	34%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+	66%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+	67%{
+		border: 1px solid grey;
+	}
+	100%{
+		border: 1px solid grey;
+	}
+}
+@keyframes post-photo-change-pc3{
+	0%{
+		border: 1px solid grey;
+	}
+	33%{
+		border: 1px solid grey;
+	}
+	34%{
+		border: 1px solid grey;
+	}
+	66%{
+		border: 1px solid grey;
+	}
+	66.99%{
+		background-color: grey;
+	}
+	67%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+	100%{
+		border: 1px solid #c2b1a1;
+		background-color: transparent;
+	}
+}

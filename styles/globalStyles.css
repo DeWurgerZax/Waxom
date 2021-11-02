@@ -1,0 +1,71 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	color: #7c7c7c;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+	--bFilter: brightness(0.5);
+	--cursor-def: url(../imgs/cursor-default.png), auto;
+	--cursor-point: url(../imgs/cursor-pointer.png), pointer;
+	cursor: var(--cursor-def);
+	animation: 1s hide linear forwards;
+}
+::selection{
+	color: #998675;
+	background-color: #211c19;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background-color: #998675;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #372f2d;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: black;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.movePage{
+	cursor: pointer;
+	height: 5vmin;
+	width: 5vmin;
+	position: fixed;
+	right: 5vmin;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+.movePageUp{
+	background-image: url(../imgs/arrow-up.png);
+	top: 9.5vmin;
+}
+.movePageUp:hover{
+	background-image: url(../imgs/arrow-up-hover.png);
+	cursor: var(--cursor-point);
+}
+.movePageDown{
+	background-image: url(../imgs/arrow-down.png);
+	bottom: 7.5vmin;
+}
+.movePageDown:hover{
+	background-image: url(../imgs/arrow-down-hover.png);
+	cursor: var(--cursor-point);
+}
+@keyframes hide{
+	0%{
+		overflow:hidden;
+	}
+	99%{
+		overflow:hidden;
+	}
+	to{
+		overflow:visible;
+	}
+}
