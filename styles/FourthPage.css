@@ -258,7 +258,7 @@
 	}
 	.PostsText{
 		margin-top: 1%;
-		width: 40%;
+		width: 60%;
 		min-height: 110px;
 	}
 	.PostsTextHead{
@@ -364,7 +364,7 @@
 		
 		background-color: #fbfaf8;
 		box-sizing: border-box;
-		font-size: 1.6vmin;
+		font-size: 1.8vmin;
 		padding: 0.3vmin 1vmin;
 		position:relative;
 		top: 0%;
@@ -474,6 +474,9 @@
 		color: white;
 	}
 	@media (max-width:1025px){
+		.FourthPage{
+			height: 150%;
+		}
 		.PostsText {
 			margin-top: 0%;
 			width: 60%;
@@ -482,7 +485,10 @@
 		.PostsTextInfo {
 			text-align: center;
 			width: 100%;
-			font-size: 1.5vmax;
+			font-size: 2.5vmin;
+		}
+		.PostsPhotos{
+			margin-top: 0%;
 		}
 		.CreditsLogos img {
 			transform: translatey(100%);
@@ -496,7 +502,7 @@
 			width: 100%;
 			background-color: #fbfaf8;
 			box-sizing: border-box;
-			font-size: 1.6vmax;
+			font-size: 2vmin;
 			padding: 0.3vmin 1vmin;
 			position: relative;
 			top: 0%;
@@ -669,11 +675,14 @@
 			height: 49%;
 		}
 		@media (max-width:680px){
+			.FourthPage{
+				height: 150%;
+			}
 			.PpostHead{
 				font-size: 10px;
 			}
 			.PpostDes{
-				font-size: 8.5px;
+				font-size: 1.4vmax;
 			}
 			.Parrows{
 				display: none;
@@ -686,14 +695,17 @@
 			}
 		}
 		@media (max-width:580px){
+			.FourthPage{
+				height: 150%;
+			}
 			.PpostDes{
-				font-size: 7.8px;
+				font-size: 1.6vmax;
 			}
 			.Parrows{
 				display: none;
 			}
 			.Credits{
-				height: 60%;
+				height: 62%;
 			}
 			.CreditsLogos img{
 				height: 90px;

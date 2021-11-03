@@ -390,7 +390,7 @@
 		}
 		@media (max-width:860px) and (orientation:landscape){
 			.ThirdPage{
-				height: 130%;
+				height: 150%;
 			}
 			.VideoIcon{
 				height: 50px;

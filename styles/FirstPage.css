@@ -472,13 +472,20 @@
 	}
 	@media (max-width:860px) and (orientation:landscape){
 		.FirstPage{
-			height: 110%;
+			height: 150%;
+		}
+		.NavigationList li {
+			display: inline;
+			color: white;
+			font-size: 3vmin;
+			box-sizing: border-box;
+			padding: 1vmin;
 		}
 		.PortfolioBody {
 			margin-top: 0%;
 		}
 		.slides-position {
-			bottom: 30vmin;
+			bottom: 0vmin;
 		}
 		.PlatesIcons {
 			height: 28px;
@@ -488,7 +495,24 @@
 			font-size: 3.4vmin;
 		}
 		.PlatesText {
-			font-size: 2vmin;
+			font-size: 3vmin;
+		}
+		.Description_button {
+			display: block;
+			border-radius: 5px;
+			text-align: center;
+			margin: auto;
+			margin-top: 5%;
+			background-color: #998675;
+			height: 6vmax;
+			width: 22vmax;
+			font-size: 2vmax;
+			font-weight: bold;
+			font-family: auto;
+			padding: 1.8vmax;
+			box-sizing: border-box;
+			box-shadow: 0px 3px 0px #766659;
+			transition: 1s linear;
 		}
 	}
 	
@@ -727,7 +751,7 @@
 	}
 	@media (max-width:680px) and (orientation:landscape){
 		.FirstPage{
-			height: 110%;
+			height: 150%;
 		}
 		.NavigationList li{
 			font-size: 3vmin;
@@ -742,7 +766,7 @@
 			font-size: 6vmin;
 		}
 		.slides-position {
-			bottom: 25vmin;
+			bottom: 0vmin;
 		}
 		.Description_text_strangeLNG {
 			font-size: 3.5vmin;
@@ -750,10 +774,17 @@
 		}
 		.Description_button {
 			margin-top: 0%;
-			font-size: 3vmin;
+			font-size: 3vmax;
+			height: 6vmax;
+			width: 22vmax;
+			padding: 1.8vmax;
+			margin-top: 1%;
 		}
 		.PlatesIcons {
-			display: none;
+			text-align: center;
+			height: 24px;
+			width: 24px;
+			background-size: cover;
 		}
 		.PlatesHeader {
 			font-size: 3.6vmin;
@@ -865,7 +896,7 @@
 		}
 		@media (max-width:620px) and (orientation:landscape){
 			.FirstPage{
-				height: 110%;
+				height: 150%;
 			}
 			.PortfolioBody{
 				margin-top: 0%;
@@ -874,7 +905,7 @@
 				width: 56%;
 			}
 			.Description_button{
-				margin-top: 0%;
+				margin-top: 1%;
 			}
 			.PlatesText {
 				font-size: 11px;
