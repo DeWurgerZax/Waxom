@@ -6,7 +6,7 @@ svg{
 	z-index: 50;
 	top: 0;
 	opacity: 1;
-	animation: screen-move 1s linear 1s forwards;
+	animation: screen-move 5s linear 5s forwards;
 }
 #c1{
 	animation: color1 2s linear infinite alternate;

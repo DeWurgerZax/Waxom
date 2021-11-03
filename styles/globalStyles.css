@@ -9,7 +9,7 @@ html, body{
 	--cursor-def: url(../imgs/cursor-default.png), auto;
 	--cursor-point: url(../imgs/cursor-pointer.png), pointer;
 	cursor: var(--cursor-def);
-	animation: 1s hide linear forwards;
+	animation: 5s hide linear forwards;
 }
 ::selection{
 	color: #998675;
