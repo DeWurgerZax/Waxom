@@ -33,7 +33,7 @@
 		width: 80px;
 		background-image: url(../imgs/play.png);
 		background-size: cover;
-		filter: drop-shadow(2px 3px 5px grey);
+		/*filter: drop-shadow(2px 3px 5px grey);*/
 	}
 	.VideoDes{
 		color: white;
